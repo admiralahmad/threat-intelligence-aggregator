@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.gz
+*.json
+outputs/
+data/
+last_fetch.txt
+
