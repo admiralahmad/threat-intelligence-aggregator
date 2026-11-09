@@ -10,7 +10,7 @@ OUTPUT_DIR = "outputs"
 GZ_FILE = os.path.join(DATA_DIR, "nvdcve-modified.json.gz")
 JSON_FILE = os.path.join(OUTPUT_DIR, "nvdcve-modified.json")
 CACHE_FILE = os.path.join(DATA_DIR, "last_fetch.txt")
-URL = "https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz"
+URL = "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-modified.json.gz"
 
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
