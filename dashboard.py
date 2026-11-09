@@ -77,7 +77,7 @@ def run_dashboard():
         st.header("🔍 Filter Settings")
         days_back = st.slider("Show CVEs from past days:", 1, 60, 30)
         min_score = st.slider("Minimum CVSS Score:", 0.0, 10.0, 8.0, 0.1)
-        keyword_input = st.text_input("Keywords (comma-separated):", "nigeria, ecowas, telecom")
+        keyword_input = st.text_input("Keywords (comma-separated):", "Active Directory, Solarwinds, PHP, Entra, Windows, Apple, Apache, Linux")
         keywords = [k.strip().lower() for k in keyword_input.split(",") if k.strip()]
 
         if st.button("🔄 Refresh Feed Now"):
